@@ -1,0 +1,22 @@
+name: Feature or idea
+description: Suggest a change or an addition
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If this repository is a fork, ideas about upstream behaviour belong with the upstream project.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do
+      description: The problem or goal, before any proposed solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What you would like to see, and any alternatives you considered.
+    validations:
+      required: true

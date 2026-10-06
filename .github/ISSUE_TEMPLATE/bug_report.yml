@@ -1,0 +1,37 @@
+name: Bug report
+description: Something does not work as the README says it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If this repository is a fork and the problem is in upstream code, please report it to the upstream project instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you ran, what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Exact commands or clicks, starting from a clean checkout if possible.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, browser or runtime versions, and the commit or release you used.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Output or logs
+      description: Paste relevant output. Remove credentials and personal data first.
+      render: shell
+    validations:
+      required: false
