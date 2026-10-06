@@ -19,4 +19,4 @@ These repositories are meant for respectful, practical collaboration.
 
 This applies to issues, pull requests, discussions and other spaces in this account's repositories. Comments may be edited or removed, threads closed and users blocked when they break it.
 
-To report a problem, use the private "Report a vulnerability" form on the repository's Security tab if it is shown, otherwise the contact form on [complete.tech](https://www.complete.tech/#contact). Reports are handled privately. For conduct in a fork's upstream project, the upstream project's own rules apply.
+To report a problem, use the contact form on [complete.tech](https://www.complete.tech/#contact). Reports are handled privately. For conduct in a fork's upstream project, the upstream project's own rules apply.
